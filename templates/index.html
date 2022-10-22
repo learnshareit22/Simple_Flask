@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Quadratic Function</title>
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Solve Quadratic Function</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('solution')}}"method="post">
+    
+    <input type="text" name="a" placeholder="a" required="required" />
+		<input type="text" name="b" placeholder="b" required="required" />
+		<input type="text" name="c" placeholder="c" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Solve</button>
+    </form>
+
+   <br>
+   <br>
+   {{ text }}
+
+ </div>
+
+
+</body>
+</html>
