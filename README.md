@@ -1,1 +1,4 @@
-# ML-MODEL-DEPLOYMENT-USING-FLASK
+# Deploy Quadratic Equation by Flask
+
+# Install Flask
+pip install -U Flask
